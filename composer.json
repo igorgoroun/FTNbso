@@ -1,0 +1,25 @@
+{
+    "name": "igorgoroun/ftnbso",
+    "description": "Fidonet binkleyterm style outbound",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Igor Goroun",
+            "email": "igor.goroun@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.5|^7.0",
+        "wapmorgan/binary-stream": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {"IgorGoroun\\FTNbso\\": "src/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0"
+        }
+    }
+}
